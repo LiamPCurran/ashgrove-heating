@@ -570,7 +570,7 @@ pages.append(page("contact.html",
 POSTS = [("heat-pump-vs-furnace-ottawa.html", "Heat pump or furnace? What actually makes sense in Ottawa",
           "A plain-English comparison of costs, comfort and cold-weather performance for Ottawa homes.", "heatpump")]
 posts_html = "".join(f'''<a class="post-card" href="{u}">{img(ph, (480, 800), "", sizes="(max-width:640px) 100vw, 360px", ratio=(4, 3))}
-<span><small>Heat pumps · 8 min read</small><strong>{t}</strong><span>{d}</span></span></a>''' for u, t, d, ph in POSTS if (ROOT / "posts" / u).exists())
+<span><small>Heat pumps · 7 min read</small><strong>{t}</strong><span>{d}</span></span></a>''' for u, t, d, ph in POSTS if (ROOT / "posts" / u).exists())
 pages.append(page("blog/index.html",
     "Home Heating & Cooling Advice for Ottawa | Ashgrove Heating & Air",
     "Plain-English advice on furnaces, heat pumps and air conditioning for Ottawa homeowners, from the Ashgrove Heating & Air team.",
