@@ -347,7 +347,9 @@ pages.append(page("index.html",
 <div>{I['wrench']}<strong>Repair-first advice</strong><span>If a $200 part fixes it, we won't sell you a $6,000 furnace.</span></div>
 <div>{I['snow']}<strong>Built for −30°C</strong><span>Equipment sized for real Ottawa winters.</span></div>
 <div>{I['shield']}<strong>Warranty you can use</strong><span>2 years on repair labour, 10 years on new systems.</span></div>
-</div></div>
+</div>
+<blockquote class="owner"><p>“I started Ashgrove after watching a neighbour get talked into a $7,000 furnace she didn't need. The real problem was a $40 igniter. We've built the whole company around not being that guy.”</p>
+<footer><span class="av">D</span><span><strong>Dan Ashworth</strong><small>Owner, Ashgrove Heating &amp; Air</small></span></footer></blockquote></div>
 <div class="split-img">{img("cozy", (640, 1000), "Family warming their feet by the fire in a cozy living room", sizes="(max-width:900px) 100vw, 520px", ratio=(16, 9))}</div>
 </div></section>
 
